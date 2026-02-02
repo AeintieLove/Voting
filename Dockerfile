@@ -6,7 +6,7 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 
 # သင့် Project ရဲ့ .war file ကို Tomcat ထဲ ကူးထည့်ပါမယ်
 # (မှတ်ချက်: 'YourProjectName.war' နေရာမှာ သင့် project war file နာမည်ထည့်ပါ)
-COPY ./Mandalay.war /usr/local/tomcat/webapps/ROOT.war
+COPY ./VotingSystem.war /usr/local/tomcat/webapps/ROOT.war
 
 # Port 8080 ကို ဖွင့်ပါမယ်
 EXPOSE 8080
